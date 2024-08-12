@@ -34,16 +34,6 @@ snakemake -s /your_path/Go_bacteriaRNake_paired_V3.smk --cores 16 --config proje
 
 Replace `your_project_name`, `your_fastq_directory`, `your_genome_file`, `your_gff_file`, and `your_path` with the appropriate paths or filenames for your specific analysis.
 
-### Example
-
-```bash
-pro=(f31_conj_p2)
-fastqs=(pool2)
-genome=(reference/C16.01.flye.20240523.fna)
-gff=(reference/C16.01.flye.20240523.cleaned.gff)
-
-snakemake -s /home/uhlemann/heekuk_path/Go_bacteriaRNake_paired_V3.smk --cores 16 --config project=$pro read_dir=$fastqs genome=$genome gff=$gff --rerun-incomplete --use-conda
-```
 
 ## Handling Prokka Output GFF Files
 
@@ -55,11 +45,6 @@ sed '/^##FASTA$/,$d' your_prokka_output.gff > your_cleaned_output.gff
 
 Replace `your_prokka_output.gff` with the name of your Prokka output file, and `your_cleaned_output.gff` with the desired output filename.
 
-### Example
-
-```bash
-sed '/^##FASTA$/,$d' C16.01.flye.20240523.gff > C16.01.flye.20240523.cleaned.gff
-```
 
 ## Required Tools
 
