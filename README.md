@@ -1,6 +1,6 @@
 # RNake
 
-RNake is a Snakemake pipeline designed for RNA sequencing data analysis. This pipeline is built for convenience, allowing users to easily process both single and paired-end FASTQ inputs. It automates the steps of trimming, mapping, counting, and merging RNA-seq data, ensuring reproducibility and efficiency.
+RNake is a Snakemake pipeline designed for Bacterial RNA sequencing data analysis. This pipeline is built for convenience, allowing users to easily process both single and paired-end FASTQ inputs. It automates the steps of trimming, mapping, counting, and merging RNA-seq data, ensuring reproducibility and efficiency.
 
 ## Features
 

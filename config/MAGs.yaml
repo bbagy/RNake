@@ -1,0 +1,13 @@
+name: MAGs
+channels:
+  - defaults
+  - bioconda
+dependencies:
+  - megahit
+  - metabat2
+  - gtdbtk
+  - checkm-genome
+  - prokka
+  - bowtie2
+  - samtools
+  - DAS_Tool

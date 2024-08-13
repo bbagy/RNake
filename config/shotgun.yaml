@@ -1,0 +1,10 @@
+name: shotgun
+channels:
+  - defaults
+  - bioconda
+dependencies:
+  - trimmomatic
+  - bowtie2
+  - samtools
+  - htseq
+  
