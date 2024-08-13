@@ -46,6 +46,13 @@ sed '/^##FASTA$/,$d' your_prokka_output.gff > your_cleaned_output.gff
 Replace `your_prokka_output.gff` with the name of your Prokka output file, and `your_cleaned_output.gff` with the desired output filename.
 
 
+
+## Output
+
+The final output of the pipeline is a CSV file named **merged_counts_with_gene_names.csv**. This file contains the merged count data with gene names mapped from the provided GFF file. It is located in the project’s output directory and can be used for downstream analysis.
+
+
+
 ## Required Tools
 
 The pipeline requires several tools, which are specified in the YAML files for Conda environments:
