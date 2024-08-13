@@ -26,8 +26,8 @@ To run the pipeline, use the following command:
 ```bash
 pro=(your_project_name)
 fastqs=(your_fastq_directory)
-genome=(your_genome_file)
-gff=(your_gff_file)
+genome=(your_reference_genome_file.fna)
+gff=(your_reference_gff_file.gff)
 
 snakemake -s /your_path/Go_bacteriaRNake_paired_V3.smk --cores 16 --config project=$pro read_dir=$fastqs genome=$genome gff=$gff --rerun-incomplete --use-conda
 ```
